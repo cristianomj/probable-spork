@@ -14,6 +14,9 @@
 		4ED33D751C83EDB60071AF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED33D731C83EDB60071AF16 /* LaunchScreen.storyboard */; };
 		4ED33D801C83EDB60071AF16 /* Probable_SporkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33D7F1C83EDB60071AF16 /* Probable_SporkTests.swift */; };
 		4ED33D8B1C83EDB60071AF16 /* Probable_SporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33D8A1C83EDB60071AF16 /* Probable_SporkUITests.swift */; };
+		4ED33D991C83F1F50071AF16 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33D981C83F1F50071AF16 /* LoginViewController.swift */; };
+		4ED33D9E1C8402530071AF16 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33D9D1C8402530071AF16 /* User.swift */; };
+		4ED33DA01C8402610071AF16 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33D9F1C8402610071AF16 /* Tweet.swift */; };
 		F7CCB96F7E46A4B83E33DA49 /* Pods_Probable_Spork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C4FE35302596D05D411325 /* Pods_Probable_Spork.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +54,9 @@
 		4ED33D861C83EDB60071AF16 /* Probable SporkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Probable SporkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED33D8A1C83EDB60071AF16 /* Probable_SporkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Probable_SporkUITests.swift; sourceTree = "<group>"; };
 		4ED33D8C1C83EDB60071AF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED33D981C83F1F50071AF16 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4ED33D9D1C8402530071AF16 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4ED33D9F1C8402610071AF16 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +118,10 @@
 		4ED33D691C83EDB60071AF16 /* Probable Spork */ = {
 			isa = PBXGroup;
 			children = (
+				4ED33D9C1C8402220071AF16 /* Models */,
+				4ED33D9B1C8402140071AF16 /* API */,
+				4ED33D9A1C83F2000071AF16 /* View Controllers */,
 				4ED33D6A1C83EDB60071AF16 /* AppDelegate.swift */,
-				4ED33D6C1C83EDB60071AF16 /* ViewController.swift */,
 				4ED33D6E1C83EDB60071AF16 /* Main.storyboard */,
 				4ED33D711C83EDB60071AF16 /* Assets.xcassets */,
 				4ED33D731C83EDB60071AF16 /* LaunchScreen.storyboard */,
@@ -138,6 +146,31 @@
 				4ED33D8C1C83EDB60071AF16 /* Info.plist */,
 			);
 			path = "Probable SporkUITests";
+			sourceTree = "<group>";
+		};
+		4ED33D9A1C83F2000071AF16 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ED33D981C83F1F50071AF16 /* LoginViewController.swift */,
+				4ED33D6C1C83EDB60071AF16 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4ED33D9B1C8402140071AF16 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		4ED33D9C1C8402220071AF16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4ED33D9D1C8402530071AF16 /* User.swift */,
+				4ED33D9F1C8402610071AF16 /* Tweet.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		B14FDFA847EC25BBFF458989 /* Pods */ = {
@@ -334,6 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED33D9E1C8402530071AF16 /* User.swift in Sources */,
+				4ED33DA01C8402610071AF16 /* Tweet.swift in Sources */,
+				4ED33D991C83F1F50071AF16 /* LoginViewController.swift in Sources */,
 				4ED33D6D1C83EDB60071AF16 /* ViewController.swift in Sources */,
 				4ED33D6B1C83EDB60071AF16 /* AppDelegate.swift in Sources */,
 			);
